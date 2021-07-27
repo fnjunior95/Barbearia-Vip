@@ -1,0 +1,95 @@
+.bg_franquia {
+  width: 100%;
+  height: 200px;
+  background-color: #212121;
+}
+.bg_franquia h2 {
+  text-align: center;
+  padding-top: 120px;
+  color: white;
+  font-size: 42px;
+}
+.bg_franquia h2:after {
+  content: "";
+  display: flex;
+  width: 60px;
+  height: 3px;
+  background: #fff;
+  margin: 0px auto;
+}
+.formulario_franquia {
+  width: 100%;
+  height: 740px;
+  background-color: #212121;
+  padding-top: 50px;
+}
+.form_franq {
+  padding-right: 40px;
+}
+.form_franq label {
+  display: block;
+  color: #fff;
+  font-family: teko, Arial, Helvetica, sans-serif;
+  font-size: 24px;
+}
+.form_franq input {
+  width: 100%;
+  background: none;
+  border: 4px solid #ddbc5f;
+  height: 38px;
+  margin-bottom: 10px;
+  color: #fff;
+  outline: none;
+  font-family: teko, Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+.form_franq textarea {
+  width: 100%;
+  background: none;
+  border: 4px solid #ddbc5f;
+  height: 150px;
+  margin-bottom: 10px;
+  color: #fff;
+  font-family: teko, Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+.form_franq .btn {
+  background: none;
+}
+
+.franquia_dados {
+  padding-left: 60px;
+}
+.formulario_franquia h3 {
+  font-family: teko, Arial, Helvetica, sans-serif;
+  font-size: 36px;
+  color: #ddbc5f;
+  margin-top: 40px;
+}
+.formulario_franquia h3:after {
+  content: "";
+  display: flex;
+  text-align: left;
+  width: 60px;
+  height: 3px;
+  background: #ddbc5f;
+  margin-bottom: 20px;
+}
+.formulario_franquia span {
+  display: block;
+  font-family: teko, Arial, Helvetica, sans-serif;
+  font-size: 26px;
+  color: #fff;
+  line-height: 35px;
+}
+.formulario_franquia ul li {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  padding: 6px;
+  border: 3px solid #ddbc5f;
+  margin-right: 10px;
+}
+.formulario_franquia ul li:hover {
+  border-color: #fff;
+}

@@ -1,0 +1,336 @@
+/* adaptação faça parte da equipe */
+@media only screen and (min-width: 979px) and (max-width: 1600px) {
+  .barber {
+    position: absolute;
+    display: none;
+  }
+  .bg {
+    width: 100%;
+  }
+  .tc_formulario {
+    margin-left: 30%;
+  }
+}
+@media only screen and (min-width: 979px) and (max-width: 1200px) {
+  .tc_formulario {
+    margin-left: 20%;
+  }
+}
+/* Estilo tablets */
+@media only screen and (min-width: 788px) and (max-width: 979px) {
+  /* introdução */
+  .introducao h1 {
+    margin-left: 75px;
+  }
+  /* app */
+  .app_bv .subtitulo_interno {
+    padding-left: 0px;
+  }
+  .apple {
+    margin-left: 180px;
+    margin-bottom: 50px;
+  }
+  .google {
+    margin-left: 40px;
+  }
+  /* diferenciais */
+  .diferenciais {
+    height: 1110px;
+  }
+  .diferenciais p {
+    margin-top: 25px;
+  }
+  .quote {
+    padding-top: 40px;
+  }
+  /* faça parte da equipe */
+  .contato h2 {
+    margin-top: 40px;
+  }
+  .tc_form {
+    width: 100%;
+    height: 900px;
+  }
+  .barber {
+    display: none;
+  }
+  .bg {
+    width: 100%;
+  }
+  .formulario {
+    width: 600px;
+    padding: 0;
+  }
+  .contato_form {
+    width: 600px;
+    margin: 0 auto;
+  }
+  /* visita */
+  .visita1 {
+    width: 408px;
+  }
+  .visita3 {
+    width: 408px;
+  }
+  .visita4 {
+    width: 411px;
+  }
+  .visita5 {
+    background: url(../img/visita4.jpg) no-repeat left;
+    background-size: cover;
+    width: 337px;
+    height: 342px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+  }
+  /* footer */
+  .footer h2 {
+    font-size: 30px;
+  }
+
+  .footer p {
+    width: 350px;
+    font-weight: regular;
+    font-size: 18px;
+  }
+
+  .footer_redes ul li {
+    width: 45px;
+    height: 45px;
+    border: 3px solid #ddbc5f;
+    display: inline-block;
+    margin: 0;
+    padding: 10px;
+  }
+  .copy p {
+    padding: 0;
+    margin: 0;
+    margin-top: 5px;
+    font-size: 20px;
+  }
+  /* SOBRE */
+  .bg_sobre {
+    height: 1000px;
+  }
+  .conteudo_sobre p {
+    width: 400px;
+  }
+  /* UNIDADES */
+  .bg_unidades {
+    height: 3650px;
+  }
+  .links {
+    margin-left: 0px;
+  }
+}
+/* Estilo mobile */
+@media only screen and (max-width: 787px) {
+  /* index */
+  /* header */
+  .header {
+    position: relative;
+    padding-bottom: 0px;
+  }
+  .header img {
+    margin: 0 auto;
+  }
+  .header_menu {
+    text-align: center;
+  }
+  .header_menu ul {
+    margin-top: 35px;
+  }
+  .header_menu ul li {
+    margin: 5px 3px 10px 3px;
+  }
+
+  .header_menu ul li a {
+    border: 2px solid #ddbc5f;
+    width: 140px;
+    display: inline-block;
+  }
+
+  /* introdução */
+
+  .introducao {
+    margin-top: 0;
+  }
+  .introducao h1 {
+    width: 400px;
+    font-size: 65px;
+    margin: 0;
+    padding-right: 50px;
+    margin-bottom: 60px;
+  }
+  .introducao .diferenciais_barber {
+    background: url(../img/dif-intro-mobile.png);
+    width: 192px;
+    height: 230px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+  }
+  .introducao p {
+    margin-right: 200px;
+    padding-right: 80px;
+    font-size: 20px;
+    margin-bottom: 35px;
+  }
+
+  /* app */
+  .app_bv .subtitulo_interno {
+    padding-left: 0px;
+    font-size: 30px;
+    text-align: center;
+  }
+  .app_bv ul li {
+    font-size: 20px;
+  }
+  .apple {
+    display: block;
+    margin-left: 16px;
+    margin-top: -30px;
+  }
+  .google {
+    display: block;
+    margin: 0;
+    margin-bottom: 40px;
+  }
+  /* diferenciais */
+  .diferenciais {
+    height: 1550px;
+  }
+  .diferenciais h2 {
+    margin-top: 20px;
+  }
+  .diferenciais img {
+    margin-top: 40px;
+  }
+  .diferenciais p {
+    margin-top: 30px;
+  }
+  .diferenciais .quote {
+    width: 350px;
+    padding-top: 20px;
+    color: #ddbc5f;
+  }
+  /* FAça parte da equipe */
+
+  .barber {
+    display: none;
+  }
+  .bg {
+    width: 100%;
+  }
+  .tc_formulario {
+    width: 400px;
+    margin-left: 11%;
+  }
+  .formulario {
+    padding: 0;
+    width: 450px;
+  }
+  .contato_form {
+    margin: 0 auto;
+    width: 450px;
+  }
+  /* visita */
+  .fotos_visita {
+    margin: 0;
+    width: 400px;
+    margin-left: -60px;
+  }
+  .visita1 {
+    margin-top: 40px;
+    width: 100%;
+  }
+  .visita2 {
+    display: none;
+  }
+  .visita3 {
+    width: 100%;
+  }
+  .visita4 {
+    display: none;
+  }
+  .visita5 {
+    width: 100%;
+  }
+  /* footer */
+  .footer {
+    height: 365px;
+  }
+  .footer h2 {
+    font-size: 24px;
+    margin-left: 0;
+  }
+  .footer p {
+    width: 350px;
+    font-weight: regular;
+    font-size: 16px;
+  }
+  .footer_contato {
+    margin-left: 0;
+  }
+
+  .footer_redes {
+    padding-left: 0;
+  }
+  .copy {
+    height: 52px;
+  }
+  .copy p {
+    padding: 0;
+    margin: 0;
+    padding-top: 20px;
+    font-size: 20px;
+  }
+  /* SOBRE */
+  .bg_sobre {
+    height: 1400px;
+  }
+  .bg_sobre h2 {
+    padding-top: 40px;
+  }
+  .conteudo_sobre p {
+    text-align: justify;
+    width: 300px;
+  }
+  .conteudo_sobre img {
+    display: none;
+  }
+  /* UNIDADES */
+  .bg_unidades {
+    height: 4400px;
+  }
+  .bg_unidades h2 {
+    padding-top: 40px;
+  }
+  .barber_mg {
+    margin-left: 0;
+  }
+  .barber_pr {
+    margin-left: 0;
+  }
+  .barber_pt {
+    margin-left: 0;
+  }
+  /* FRANQUIA */
+  .formulario_franquia {
+    height: 1000px;
+    padding-top: 0;
+  }
+  .bg_franquia {
+    height: 100px;
+  }
+  .bg_franquia h2 {
+    text-align: center;
+    padding-top: 40px;
+  }
+  .form_franq {
+    padding-top: 20px;
+    padding-right: 0;
+  }
+  .franquia_dados {
+    padding-left: 0;
+  }
+} ;

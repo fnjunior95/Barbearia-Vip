@@ -1,0 +1,68 @@
+.bg_unidades {
+  width: 100%;
+  height: 4000px;
+  background-color: #212121;
+}
+.bg_unidades h2 {
+  color: white;
+  padding-top: 120px;
+  text-align: center;
+}
+.bg_unidades h2:after {
+  content: "";
+  display: flex;
+  width: 60px;
+  height: 3px;
+  background: #fff;
+  margin: 0px auto;
+}
+.mapa_sc {
+  margin-top: 60px;
+}
+.bg_unidades h3 {
+  font-family: teko, Arial, Helvetica, sans-serif;
+  font-size: 36px;
+  color: #ddbc5f;
+  margin-top: 60px;
+  text-align: center;
+}
+.bg_unidades p {
+  font-family: teko, Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  color: #fff;
+  margin-top: 30px;
+  text-align: center;
+}
+.links {
+  height: 30px;
+  display: flex;
+  margin-left: 35px;
+  margin-bottom: 50px;
+}
+.links li {
+  width: 30px;
+  height: 30px;
+  margin-top: 20px;
+  margin-left: 25px;
+}
+.links .mapa {
+  margin-top: 23px;
+}
+.mapa_mg {
+  padding-top: 100px;
+}
+.barber_mg {
+  margin-left: 18%;
+}
+.mapa_pr {
+  padding-top: 100px;
+}
+.barber_pr {
+  margin-left: 35%;
+}
+.mapa_pt {
+  padding-top: 100px;
+}
+.barber_pt {
+  margin-left: 35%;
+}
